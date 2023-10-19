@@ -1,0 +1,363 @@
+header {
+    width: 100%;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: #2997ff;
+    
+}
+
+header > nav {
+    display: flex;
+    gap: 40.75px;
+    align-items: center;
+    
+    padding: 10px 0px;
+}
+
+.navigation-link {
+    color: white;
+    
+    font-family: sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 31.002px;
+    letter-spacing: 0.112px;
+}
+
+.navigation-link > img {
+    vertical-align: bottom;
+} 
+
+.search-icon-custon {
+    width: 25px;
+    height: 43px;
+    overflow: hidden;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+}
+
+.shopping_event {
+    display: flex;
+    flex: 1;
+
+    background-image: url(Tb68cPTLHHI.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    justify-content: center;
+}
+
+.shopping_event > .typography {
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 95px;
+}
+.typography > h1 {
+    color: #f5f5f7;
+    text-align: center;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.28px;
+}
+
+.typography > p {
+    color: #6e6e73;
+    text-align: center;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.002px;
+    letter-spacing: 0.112px;
+    margin-top: 4px;
+    
+    width: 555px;
+}
+
+.typography > a {
+    color: #2997ff;
+    text-align: center;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px;
+    letter-spacing: 0.231px;
+    text-decoration: none;
+
+    margin-top: 15px;
+}
+
+.streaming_now {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+    background-image: url(will.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    justify-content: center;
+}
+
+.streaming_now > div {
+    display: flex;
+    flex: 1;
+
+}
+
+.streaming_now-actors {
+    display: flex;
+    flex: 1;
+}
+
+.streaming_now-actors > div {
+    display: flex;
+    flex: 1;
+}
+
+.actor-left p,
+.actor-ridht p {
+    color: #f5f5f7;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.6px;
+}
+
+.actor-left {
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.actor-left > p {
+    margin-right: 398px;
+    margin-bottom: 40px;
+}
+
+.actor-ridht {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.actor-ridht > p {
+    margin-left: 250px;
+    margin-bottom: 40px;
+}
+
+.streaming_now-description {
+    justify-content: center;
+    align-items: flex-end;
+
+    padding-bottom: 50px;
+}
+
+.streaming_now-description p {
+    text-align: center; 
+}
+
+.streaming_now-description .subtitle {
+    color: #f5f5f7;
+    text-align: center;
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.002px;
+    letter-spacing: 0.112px;
+
+    margin-bottom: 0px;
+}
+
+.streaming_now-description .label {
+    color: #f5f5f7;
+    text-align: center;
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px;
+    letter-spacing: 0.231px;
+}
+
+.now_iphone {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+
+    background-image: url(./iphone-model.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.now_iphone_info {
+    margin-top: 90px;
+}
+
+.now_iphone_info > h1 {
+    color: #1D1D1F;
+    text-align: center;
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: -0,28px;
+
+    margin-top: -93px;
+}
+
+.now_iphone_info > p {
+    color: #1D1D1F;
+    text-align: center;
+    font-family: "SF Pro Display", sans-serif;;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.002px;
+    letter-spacing: 0.112px;
+    margin-top: -8px;
+} 
+
+.now_iphone_info > a {
+    color: darkblue;
+    text-align: center;
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.001px;
+    letter-spacing: 0.231px;
+}
+
+.now_iphone_info > div {
+    text-align: center;
+    margin-top: 14px;
+}
+
+.now_iphone_info > div >:nth-child(1) {
+    padding-right: 8px;
+    text-decoration: none;
+} 
+
+#apple-products {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.apple-product-card {
+    display: flex;
+    flex: 1 0 50%;
+
+    height: 580px;
+}
+
+.product-info h2 {
+    text-align: center;
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    margin-bottom: 4px;
+}
+
+.iphone-product h2 {
+    color: #f5f5f7;
+}
+
+.iphone-product p {
+    color: #f5f5f7;
+}
+
+.product-info p {
+    text-align: center;
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.336px;
+    margin-bottom: 13px;
+}
+
+.product-info a {
+    color: #2997ff;
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.001px;
+    letter-spacing: -0.374px;
+}
+
+.apple-product-card > div {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
+}
+
+.product-links {
+    display: flex;
+    gap: 12px;
+}
+
+.iphone-product {
+    display: flex;
+    flex: 1;
+    
+    background-image: url(aa4_1000.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    justify-content: center;
+}
+
+.ipad-product {
+    display: flex;
+    flex: 1;
+    
+    background-image: url(ipad\ 2018.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    justify-content: center;
+}
+
+.ipad-product h2 {
+    color: #1D1D1F;
+}
+
+.ipad-product p {
+    color: #1D1D1F;
+}
